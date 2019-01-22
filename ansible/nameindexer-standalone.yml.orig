@@ -4,7 +4,7 @@
   - name: install python 2
     raw: sudo bash -c "test -e /usr/bin/python || (apt -qqy update && apt install -qy python-minimal)"
 
-- hosts: living-atlas.org
+- hosts: nameindexer
   roles:
     - common
     - java

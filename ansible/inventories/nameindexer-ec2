@@ -1,0 +1,11 @@
+[nameindexer]
+living-atlas.org
+
+[nameindexer:vars]
+is_vagrant=false
+local_repo_dir=~/.ala
+data_dir=/data
+
+nameindex_datestamp = 20171012
+#nameindex_to_use=ala
+nameindex_to_use=itis
